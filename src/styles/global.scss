@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #111216;
+}
+
+section.post-items {
+    background: linear-gradient( 180deg,#1D2128 0%,rgba(249,250,252,0) 91.01% );
+    border-radius: 8px;
+    padding: 78px;
+    position: relative;
+    z-index: 1;
+}
