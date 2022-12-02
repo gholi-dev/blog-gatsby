@@ -1,6 +1,6 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React, { Fragment } from "react";
-
+import image from "../../images/userdehghani.jpeg";
 import {
   FaRegLightbulb,
   FaLightbulb,
@@ -16,9 +16,9 @@ const Intro = () => {
   return (
     <Fragment>
       <article className="mt-12 text-center">
-        <StaticImage
+        <img
           className="block w-[160px] mx-auto rounded-full border border-grey-light"
-          src="../images/userdehghani.jpeg"
+          src={image}
         />
         <h1 className="mt-6 text-4xl font-extralight">Mohammad Amin</h1>
         <p className="text-[#73737d] mt-5 w-2/4 mx-auto">

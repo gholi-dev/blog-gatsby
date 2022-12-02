@@ -13,3 +13,59 @@ section.post-items {
     position: relative;
     z-index: 1;
 }
+
+.posts img {
+   margin: 50px 0px;
+   border-radius: 12px;
+   border:1px solid #1D2128;
+}
+
+.posts p {
+    font-size: 15px;
+    color: #D0E0EF;
+    line-height: 28px; 
+}
+
+.posts h1 {
+    line-height: 50px;
+    font-style: italic;
+}
+
+.posts h2 {
+    margin: 30px 0px 15px;
+    font-size: 32px;
+}
+.posts h3 {
+    margin: 20px 0px 15px;
+    font-size: 26px;
+}
+.posts h4 {
+    margin: 14px 0px;
+    font-size: 22px;
+}
+.posts a {
+    color: #28C1F5;
+}
+.posts div.tegs {
+    margin: 15px 0px;
+    color: #D0E0EF;
+}
+.posts nav {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts nav a {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #87FCC424;
+    border-radius: 6px;
+    transition: .2s;
+    color: #D0E0EF;
+    font-size: 14px;
+    &:hover {
+        border: 1px solid #454f60;
+    }
+}
